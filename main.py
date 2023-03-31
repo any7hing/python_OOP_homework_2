@@ -43,7 +43,6 @@ def get_shop_list_by_dishes(dishes,person_count):
 ### third exersise
 
 import os
-current = os.getcwd()
 result_list = {} # создаем словарь, где ключ - название файла, значение - содержимое файла
 
 def read_file(file_name,folder_name='3exersise'): # считываем файл и записываем значение в словарь result_list
